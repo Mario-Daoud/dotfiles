@@ -1,0 +1,14 @@
+[window]
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+blur = true
+opacity = 0.9
+
+[font]
+normal = { family = "JetBrainsMonoNerdFont" }
+bold = { family = "JetBrainsMonoNerdFont" }
+italic = { family = "JetBrainsMonoNerdFont" }
+bold_italic = { family = "JetBrainsMonoNerdFont" }
+
+[terminal]
+osc52 = "CopyPaste"
