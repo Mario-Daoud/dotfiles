@@ -1,24 +1,44 @@
-window {
-  margin: 5px;
+#window {
   border-radius: 10px;
-}
-
-#input {
-  margin: 5px;
-}
-
-#inner-box {
-  margin: 5px;
+  background-color: black;
 }
 
 #outer-box {
-  margin: 5px;
+  margin: 15px;
+}
+
+#input {
+  margin: 0 0 25px 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 6px;
 }
 
 #scroll {
   margin: 5px;
 }
 
-#text {
-  margin: 5px;
+#inner-box {
 }
+
+#img {
+  margin: 0 12px 0 0;
+}
+
+#text {
+  color: white;
+  font-weight: 600;
+  font-family: "JetBrainsMono Nerd Font";
+}
+
+#entry {
+  margin: 4px 0;
+}
+
+#unselected {
+}
+
+#selected {
+}
+
