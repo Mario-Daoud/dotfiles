@@ -6,7 +6,7 @@ swaylock \
 --indicator \
 --indicator-radius 100 \
 --indicator-thickness 5 \
---effect-blur 10x10 \
+--effect-blur 20x2 \
 --effect-vignette 0.5:0.5 \
 --ring-color ffffff  \
 --key-hl-color 000000 \
