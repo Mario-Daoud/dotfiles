@@ -1,0 +1,53 @@
+let mapleader = " "
+
+" Plugins ------------
+set surround
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+set number relativenumber
+set scrolloff=13
+set clipboard=unnamed
+set incsearch
+set ideawrite=all
+set hlsearch
+set matchpairs
+set nrformats
+set clipboard+=ideaput
+
+Plug 'machakann/vim-highlightedyank'
+" comment stuff out with gc
+Plug 'tpope/vim-commentary'
+
+Plug 'preservim/nerdtree'
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+let g:NERDTreeDisableDefaultFilter = 1
+
+Plug 'tpope/vim-surround'
+set surround
+
+Plug 'https://github.com/vim-scripts/argtextobj.vim'
+set argtextobj
+let g:argtextobj_pairs="[:],(:),<:>"
+
+" Bindings ------------
+nnoremap <leader>cr :action RenameElement<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+nnoremap <leader>cf :action ReformatCode<CR>
+nnoremap <leader>cg :action Generate<CR>
+nnoremap <leader>gs :action GotoSuperMethod <CR>
+nnoremap <leader>gi :action GotoImplementation <CR>
+nnoremap <leader>g, :action JumpToLastChange <CR>
+nnoremap <leader>g. :action JumpToNextChange <CR>
+nnoremap <leader>gd :action GotoDeclaration <CR>
+nnoremap <leader>gr :action RecentFiles <CR>
+
+nnoremap <leader>rc :action RunClass <CR>
+
+nnoremap <leader>fg :action FindInPath<CR>
+nnoremap <leader>ff :action GotoFile<CR>
+
+nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>h :NERDTreeFocus<CR>
