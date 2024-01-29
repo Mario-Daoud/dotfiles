@@ -119,7 +119,8 @@
     "on-click": "playerctl play-pause",
     "on-scroll-up": "playerctl previous",
     "on-scroll-down": "playerctl next",
-    "exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
+    //"exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
+    "exec": "playerctl metadata --player spotify --format '{{ artist }} - {{ title }}'"
   },
   "custom/power": {
     "format": "⏻",
