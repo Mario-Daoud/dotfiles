@@ -11,7 +11,7 @@
     "wlr/taskbar",
     "custom/media",
   ],
-  "modules-center": ["clock"],
+  "modules-center": ["clock", "custom/dunst"],
   "modules-right": [
     "custom/wallpaper",
     "custom/weather",
@@ -101,7 +101,15 @@
     //"format": "{volume}% {icon} {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
-    "format-muted": " {format_source}",
+    "#!/bin/bash
+
+# Get the count of waiting notifications
+notifCount=$(dunstctl count waiting)
+
+# Perform dunstctl history-pop for each waiting notification
+for ((i=0; i<$notifCount; i++)); do
+  dunstctl history-pop
+doneformat-muted": " {format_source}",
     "format-source": "{volume}% ",
     "format-source-muted": "",
     "format-icons": {
@@ -146,5 +154,13 @@
     "on-click": "wofi",
     "escape": true,
     "tooltip": false,
+  },
+  "custom/dunst": {
+    "exec": "~/.config/hypr/scripts/notif-status.sh",
+    "return-type": "json",
+    "interval": 1,
+    "on-click": "dunstctl set-paused toggle",
+    "on-click-right": "dunstctl history-pop",
+    "on-click-middle": "dunstctl close-all",
   },
 }

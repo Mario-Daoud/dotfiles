@@ -71,6 +71,7 @@ button:hover {
 #custom-date,
 #custom-wallpaper,
 #custom-launch_wofi,
+#custom-dunst,
 #tray {
   color: whitesmoke;
   background-color: black;
