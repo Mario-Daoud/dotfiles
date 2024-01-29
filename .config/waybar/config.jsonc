@@ -5,7 +5,12 @@
   // "width": 1280, // Waybar width
   //"spacing": 4, // Gaps between modules (4px)
   // Choose the order of the modules
-  "modules-left": ["custom/launch_wofi", "hyprland/workspaces", "wlr/taskbar", "custom/media"],
+  "modules-left": [
+    "custom/launch_wofi",
+    "hyprland/workspaces",
+    "wlr/taskbar",
+    "custom/media",
+  ],
   "modules-center": ["clock"],
   "modules-right": [
     "custom/wallpaper",
@@ -120,7 +125,7 @@
     "on-scroll-up": "playerctl previous",
     "on-scroll-down": "playerctl next",
     //"exec": "playerctl metadata --format '{{ artist }} - {{ title }}'",
-    "exec": "playerctl metadata --player spotify --format '{{ artist }} - {{ title }}'"
+    "exec": "playerctl metadata --player spotify --format '{{ artist }} - {{ title }}'",
   },
   "custom/power": {
     "format": "⏻",
@@ -139,6 +144,7 @@
   "custom/launch_wofi": {
     "format": "",
     "on-click": "wofi",
+    "escape": true,
     "tooltip": false,
   },
 }
