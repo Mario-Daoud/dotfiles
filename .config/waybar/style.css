@@ -70,6 +70,7 @@ button:hover {
 #custom-weather,
 #custom-date,
 #custom-wallpaper,
+#custom-launch_wofi,
 #tray {
   color: whitesmoke;
   background-color: black;
@@ -77,8 +78,8 @@ button:hover {
   padding: 4px 8px;
   margin: 0px 2px 0px 2px;
 }
-#custom-power {
-  padding: 4px 12px 4px 8px;
+#custom-power, #custom-launch_wofi {
+  padding: 4px 13px 4px 8px;
 }
 #taskbar {
   padding: 4px;
