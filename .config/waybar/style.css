@@ -79,7 +79,12 @@ button:hover {
   padding: 4px 8px;
   margin: 0px 2px 0px 2px;
 }
-#custom-power,
+#custom-power {
+  padding: 4px 11px 4px 8px;
+}
+#custom-wallpaper {
+  padding: 4px 15px 4px 8px;
+}
 #custom-launch_wofi {
   padding: 4px 13px 4px 8px;
 }

@@ -140,7 +140,7 @@
     "tooltip": false,
   },
   "custom/wallpaper": {
-    "format": "⚃",
+    "format": "",
     "tooltip": false,
     "on-click": "~/.config/hypr/scripts/random-wallpaper.sh",
   },
