@@ -103,7 +103,8 @@
     # If value is greater than 0, separator_height will be ignored and a border
     # of size frame_width will be drawn around each notification instead.
     # Click events on gaps do not currently propagate to applications below.
-    gap_size = 0
+    gap_size = 4
+    # gap_size = 0
 
     # Define a color for the separator.
     # possible values are:
@@ -317,7 +318,7 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#555555"
+    background = "#222"
     foreground = "#ffffff"
     #timeout = 10
     timeout = 4
