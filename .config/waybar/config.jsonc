@@ -6,7 +6,7 @@
   //"spacing": 4, // Gaps between modules (4px)
   // Choose the order of the modules
   "modules-left": [
-    "custom/launch_wofi",
+    "custom/arch-icon",
     "hyprland/workspaces",
     "wlr/taskbar",
     "custom/media",
@@ -144,9 +144,8 @@
     "tooltip": false,
     "on-click": "~/.config/hypr/scripts/random-wallpaper.sh",
   },
-  "custom/launch_wofi": {
+  "custom/arch-icon": {
     "format": "",
-    "on-click": "wofi",
     "escape": true,
     "tooltip": false,
   },

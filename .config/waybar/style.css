@@ -70,7 +70,7 @@ button:hover {
 #custom-weather,
 #custom-date,
 #custom-wallpaper,
-#custom-launch_wofi,
+#custom-arch-icon,
 #custom-dunst,
 #tray {
   color: whitesmoke;
@@ -85,7 +85,7 @@ button:hover {
 #custom-wallpaper {
   padding: 4px 15px 4px 8px;
 }
-#custom-launch_wofi {
+#custom-arch-icon {
   padding: 4px 13px 4px 8px;
 }
 #taskbar {
