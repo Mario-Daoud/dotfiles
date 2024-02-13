@@ -157,7 +157,6 @@
   "custom/arch-icon": {
     "format": "",
     "escape": true,
-    "tooltip": false,
   },
   "custom/dunst": {
     "exec": "~/.config/hypr/scripts/notif-status.sh",
