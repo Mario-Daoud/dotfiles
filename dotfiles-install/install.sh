@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S neovim neofetch git docker alacritty ttf-font-awesome waybar wlogout wofi dunst ripgrep 
+sudo pacman -S neovim neofetch nodejs docker rust alacritty ttf-font-awesome waybar wlogout wofi dunst ripgrep  
 
 git clone --bare https://github.com/Mario-Daoud/dotfiles.git $HOME/.dotfiles
 
