@@ -2,7 +2,7 @@
 
 sudo pacman -Syu
 
-sudo pacman -S neovim neofetch nodejs docker github-cli rust grim slurp alacritty ttf-font-awesome waybar paru wlogout vlc qbittorrent wofi dunst ripgrep  
+sudo pacman -S neovim neofetch nodejs docker github-cli rust grim slurp alacritty ttf-rubik ttf-ms-fonts consolas-font ttf-times-new-roman ttf-font-awesome waybar paru wlogout vlc qbittorrent wofi dunst ripgrep  
 
 paru -S spotify WebCord 
 
