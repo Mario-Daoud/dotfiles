@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo pacman -Syu
+
 sudo pacman -S neovim neofetch nodejs docker github-cli rust grim slurp alacritty ttf-font-awesome waybar paru wlogout vlc qbittorrent wofi dunst ripgrep  
 
 paru -S spotify WebCord 
