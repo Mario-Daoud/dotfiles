@@ -127,6 +127,7 @@
     },
     "on-click": "pavucontrol",
     "on-click-right": "pamixer -t",
+    "escape": true,
   },
   "custom/media": {
     "format": "{}",
