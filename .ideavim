@@ -38,6 +38,7 @@ nnoremap <leader>cr :action RenameElement<CR>
 nnoremap <leader>ca :action ShowIntentionActions<CR>
 nnoremap <leader>cf :action ReformatCode<CR>
 nnoremap <leader>cg :action Generate<CR>
+nnoremap <leader>ch :action ShowHoverInfo<CR>
 nnoremap <leader>gs :action GotoSuperMethod <CR>
 nnoremap <leader>gi :action GotoImplementation <CR>
 nnoremap <leader>g, :action JumpToLastChange <CR>
@@ -52,3 +53,5 @@ nnoremap <leader>ff :action GotoFile<CR>
 
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>h :NERDTreeFocus<CR>
+
+nnoremap <leader>v :action MoveTabRight<CR>
