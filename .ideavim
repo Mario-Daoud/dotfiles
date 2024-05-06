@@ -1,20 +1,5 @@
 let mapleader = " "
 
-" Plugins ------------
-set surround
-set ideajoin
-set ideastatusicon=gray
-set idearefactormode=keep
-set number relativenumber
-set scrolloff=13
-set clipboard=unnamed
-set incsearch
-set ideawrite=all
-set hlsearch
-set matchpairs
-set nrformats
-set clipboard+=ideaput
-
 Plug 'machakann/vim-highlightedyank'
 " comment stuff out with gc
 Plug 'tpope/vim-commentary'
@@ -31,6 +16,26 @@ set surround
 Plug 'https://github.com/vim-scripts/argtextobj.vim'
 set argtextobj
 let g:argtextobj_pairs="[:],(:),<:>"
+
+" Plugins ------------
+set surround
+set highlightedyank
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+set number relativenumber
+set scrolloff=10
+set showmode
+set visualbell
+set clipboard+=unnamed
+set incsearch
+set ideawrite=all
+set ignorecase
+set smartcase
+set nohlsearch
+set matchpairs
+set nrformats
+set clipboard+=ideaput
 
 " Bindings ------------
 nnoremap <leader>rp :action RunClass<CR>
