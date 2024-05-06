@@ -24,7 +24,7 @@ set ideajoin
 set ideastatusicon=gray
 set idearefactormode=keep
 set number relativenumber
-set scrolloff=10
+set scrolloff=13
 set showmode
 set visualbell
 set clipboard+=unnamed
