@@ -39,11 +39,15 @@ set clipboard+=ideaput
 
 " Bindings ------------
 nnoremap <leader>rp :action RunClass<CR>
-nnoremap <leader>cr :action RenameElement<CR>
+nnoremap <leader>rc :action RunClass <CR>
+
+nnoremap <leader>cR :action RenameElement<CR>
+nnoremap <leader>cr :action Refactorings.QuickListPopupAction<CR>
 nnoremap <leader>ca :action ShowIntentionActions<CR>
 nnoremap <leader>cf :action ReformatCode<CR>
 nnoremap <leader>cg :action Generate<CR>
 nnoremap <leader>ch :action ShowHoverInfo<CR>
+
 nnoremap <leader>gs :action GotoSuperMethod <CR>
 nnoremap <leader>gi :action GotoImplementation <CR>
 nnoremap <leader>g, :action JumpToLastChange <CR>
@@ -51,9 +55,8 @@ nnoremap <leader>g. :action JumpToNextChange <CR>
 nnoremap <leader>gd :action GotoDeclaration <CR>
 nnoremap <leader>gr :action RecentFiles <CR>
 
-nnoremap <leader>rc :action RunClass <CR>
-
 nnoremap <leader>fg :action FindInPath<CR>
+nnoremap <leader>ff :action GotoFile<CR>
 nnoremap <leader>ff :action GotoFile<CR>
 
 nnoremap <leader>n :NERDTreeToggle<CR>
