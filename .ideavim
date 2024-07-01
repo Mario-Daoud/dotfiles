@@ -38,8 +38,8 @@ set nrformats
 set clipboard+=ideaput
 
 " Bindings ------------
-nnoremap <leader>rp :action RunClass<CR>
 nnoremap <leader>rc :action RunClass <CR>
+map <leader>rp <Action>(Run)
 
 nnoremap <leader>cR :action RenameElement<CR>
 nnoremap <leader>cr :action Refactorings.QuickListPopupAction<CR>
